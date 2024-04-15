@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/question"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/question1TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Cpu stands for : "
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/answer1RadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question1TextView">
+
+        <RadioButton
+            android:id="@+id/answer1ARadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Central Programming Unit"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/answer1BRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Central Processing Unit"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/answer1CRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Central Power Unit"
+            android:textColor="#FFFFFF" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/question2TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answer1RadioGroup"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Most used language in android apps : "
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/answer2RadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question2TextView">
+
+        <RadioButton
+            android:id="@+id/answer2ARadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/answer2BRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Python"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/answer2CRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Java"
+            android:textColor="#FFFFFF" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/question3TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answer2RadioGroup"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="1GB equals : "
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/answer3RadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question3TextView">
+
+        <RadioButton
+            android:id="@+id/answer3ARadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1024 mb"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/answer3BRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1024 kb"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/answer3CRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="none of the above"
+            android:textColor="#FFFFFF" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/fillBlank1TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answer3RadioGroup"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Java is an  ________  oriented language"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/fillBlank1EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fillBlank1TextView"
+        android:background="#2B2A2A"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/fillBlank2TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fillBlank1EditText"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="at the end of every programming line we put a ____________"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/fillBlank2EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fillBlank2TextView"
+        android:background="#2B2A2A"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/fillBlank3TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fillBlank2EditText"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="representation of 10 in binary is ________"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/fillBlank3EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fillBlank3TextView"
+        android:background="#2B2A2A"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:text="02:00"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-20dp"
+        android:text="Submit"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
